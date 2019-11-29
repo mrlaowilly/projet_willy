@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Acceuil{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h3>Bienvenue dans le gestionnaire des stocks !</h3>
+        <a class="btn btn-primary" href="{{ path('stock_index') }}">Gérer les équipements !</a>
+    </div>
+{% endblock %}

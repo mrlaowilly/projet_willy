@@ -1,0 +1,18 @@
+body {
+    background: no-repeat url("/img/foot.jpg");
+    background-size: cover;
+    height: 720px;
+}
+
+h3 {
+    margin-top: 30%;
+    color: black;
+    background-color: white;
+    margin-right: 50%;
+}
+
+.container2 {
+    background-color: white;
+    margin-top: 5%;
+    padding: 5%;
+}

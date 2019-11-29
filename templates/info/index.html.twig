@@ -1,0 +1,114 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Chasuble{% endblock %}
+
+{% block javascripts %}
+<script>
+   $(function () {
+       $('[data-toggle="popover"]').popover()
+   })
+</script>
+{% endblock %}
+
+{% block body %}
+    <div class="container container2">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-8">
+                    <h1 class="display-4">Infos équipements</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                </div>
+                <div class="col-4">
+                    <img src="{{ '/img/foot.jpg' }}" style="width: 100%;">
+                </div>
+                <div class="col-12" style="margin-top: 8%;"></div>
+                    <div class="card" style="width: 33%;">
+                        <img style="height: 300px;" src="{{ asset('/img/chasuble.png') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chasuble</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="popover" title="Chasuble NIKE - 23,00€"
+                                    data-content="Cette chasuble a été conçue pour permettre aux entraîneurs de créer plusieurs équipes, facilement identifiables.
+                                    Elle possède une coupe ample et échancrée pour éviter toutes gênes lors de la pratique du football.">En savoir plus</button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 33%;">
+                        <img style="height: 300px;" src="{{ '/img/ballon.jpg' }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ballon</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="popover" title="Ballon NIKE - 60,00€"
+                                    data-content="Cette chasuble a été conçue pour permettre aux entraîneurs de créer plusieurs équipes, facilement identifiables.
+                                    Elle possède une coupe ample et échancrée pour éviter toutes gênes lors de la pratique du football.">En savoir plus</button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 33%;">
+                        <img style="height: 300px;" src="{{ '/img/plot.jpg' }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mini plot</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="popover" title="Mini plot NIKE - 5,00€"
+                                    data-content="Cette chasuble a été conçue pour permettre aux entraîneurs de créer plusieurs équipes, facilement identifiables.
+                                    Elle possède une coupe ample et échancrée pour éviter toutes gênes lors de la pratique du football.">En savoir plus</button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 33%;">
+                        <img style="height: 300px;" src="{{ '/img/barre.jpg' }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Barre</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="popover" title="Barre NIKE - 13,00€"
+                                    data-content="Cette chasuble a été conçue pour permettre aux entraîneurs de créer plusieurs équipes, facilement identifiables.
+                                    Elle possède une coupe ample et échancrée pour éviter toutes gênes lors de la pratique du football.">En savoir plus</button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 33%;">
+                        <img style="height: 300px;" src="{{ '/img/maillot.jpg' }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Maillot</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="popover" title="Maillot NIKE - 60,00€"
+                                    data-content="Cette chasuble a été conçue pour permettre aux entraîneurs de créer plusieurs équipes, facilement identifiables.
+                                    Elle possède une coupe ample et échancrée pour éviter toutes gênes lors de la pratique du football.">En savoir plus</button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 33%;">
+                        <img style="height: 300px;" src="{{ '/img/short.jpg' }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Short</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="popover" title="Short NIKE - 23,00€"
+                                    data-content="Cette chasuble a été conçue pour permettre aux entraîneurs de créer plusieurs équipes, facilement identifiables.
+                                    Elle possède une coupe ample et échancrée pour éviter toutes gênes lors de la pratique du football.">En savoir plus</button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 33%;">
+                        <img style="height: 300px;" src="{{ '/img/sifflet.jpg' }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sifflet</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="popover" title="Sifflet NIKE - 15,00€"
+                                    data-content="Cette chasuble a été conçue pour permettre aux entraîneurs de créer plusieurs équipes, facilement identifiables.
+                                    Elle possède une coupe ample et échancrée pour éviter toutes gênes lors de la pratique du football.">En savoir plus</button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 33%;">
+                        <img style="height: 300px;" src="{{ '/img/cone.jpg' }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Plot</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="popover" title="Plot NIKE - 7,00€"
+                                    data-content="Cette chasuble a été conçue pour permettre aux entraîneurs de créer plusieurs équipes, facilement identifiables.
+                                    Elle possède une coupe ample et échancrée pour éviter toutes gênes lors de la pratique du football.">En savoir plus</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a style="display: block; margin-top: 4%;" class="btn btn-primary btn-lg" href="{{ path('stock_index') }}" role="button">Retour à l'index</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
